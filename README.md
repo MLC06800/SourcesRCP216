@@ -1,8 +1,4 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/MLC06800/SourcesRCP216/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Ceci est un dépôt de document dans le cadre d'une étude d'un réseau social (formation CNAM - UE RCP216)
 
 ### Markdown
 
