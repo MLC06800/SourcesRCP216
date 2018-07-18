@@ -1,1 +1,16 @@
 
+Diférents essais de spatialisation  du sous graphe des noeuds identifié dans le dictionnaire (100 199 noeuds)
+avec différents Layout GEPHI :
+- YiFan Hu : limité à 100000 noeuds - temps très long résultat mauvais
+L’algorithme  de Yifan Hu est basé sur les forces et l’analyse multi-niveaux. C’est un algorithme d’une complexité d’ordre O(N*log(N)), ce qui tout à fait approprié étant donné la taille du graphe à traiter (100199 nœuds). De plus cet algorithme terminant en un temps polynomial il s’arrête tout seul. Les paramètres utilisés sont les suivants : 
+►	Ratio du pas (pour une qualité optimale au détriment de la vitesse) : 0.95
+►	Distance optimale (pour une bonne séparation sans trop étaler étant donné le nombre imposant de nœuds à afficher) : 100
+►	Thêta de l’algorithme  de Barnes-Hut (donne une bonne précision) : 1.2
+
+
+- OpenOrd : limité à 1 millon de noeud - le plus rapide -  spatialisation moyenne : Ok pour la coloration 
+mais pas de regroupement par communauté efficace pour donner une visualisation claire
+- Force Atlas 2 : temps trop long
+- Circle Pack Layout (extension à ajouter) : Vision des communauté par taille et couleur + vision des liens entre communautés. De plus la position centrale ou excentré montre 
+
+
